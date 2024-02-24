@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> attribute</title>
+    </head>
+    <body>
+        <h1>onclick attribute test</h1>
+        <p onclick="this.innerHTML=('dinoser is in')">Danger</p><br><br>
+        <h2>onclick using button</h2>
+        <button onclick="displaydate()">Date&Time</button>
+        <h2 id="demo"></h2><br><br>
+        
+        <h2>onmouseover</h2>
+        <h3 onmouseover="mOver(this)";
+            onmouseout="mOut(this)";>nanna</h3>
+        <script>
+            function mOver(obj){
+               obj.innerHTML="is my hero";
+            }
+            function mOut(obj){
+                obj.innerHTML='nana'
+            }
+            
+           
+        </script>
+    </body>
+</html>
